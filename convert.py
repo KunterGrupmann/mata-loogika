@@ -17,15 +17,16 @@ while number > 0:
 print("Result in binary:", result)
 """
 
-#binary to decimal
+# binary -> decimal
 binary_as_string = input("Enter a binary number:")
-binary.count = len(binary_as_string)
+binary_count = len(binary_as_string)
 print()
-decimal= 0
+decimal_number = 0
 pow_value = 0
-
 while(binary_count > 0):
-    print(binary_as_string(binary.count-1))
-    decimal_number+= pow(2, pow_value)+int(binary_as_string[binary_count-1]
+    print(binary_as_string[binary_count-1])
+    decimal_number += pow(2, pow_value) * int(binary_as_string[binary_count-1])
     binary_count -= 1
-    print("result in decimal:", decimal_number)
+    pow_value += 1
+
+print("Result in decimal:", decimal_number)
