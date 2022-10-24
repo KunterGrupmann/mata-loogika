@@ -64,5 +64,15 @@ minutes = minutes % 60
 print(hours, minutes, seconds)
 
 #12. Student helper
-angle =
+
+
+#13. Greetings
+lots_of_heys = "hey"
+
+#14. Adding numbers
+num_a = "2"
+num_b = "5"
+string_numbers = num_a + num_b
+print(string_numbers)
+
 
