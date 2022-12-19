@@ -65,7 +65,8 @@ def ask_user_age(age_limit: int) -> int:
 
     (function returns 21)
     """
-    while True:
+
+   while True:
         age = input("What is your age?")
         if age.isdigit():
             if int(age) > 100:
